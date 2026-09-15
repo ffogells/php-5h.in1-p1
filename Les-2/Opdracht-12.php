@@ -10,10 +10,10 @@
     <p>Getal 2: <input type="text" size="20" name="getal2" value="<?php if (!empty($_GET["getal1"])){echo $_GET["getal2"];} ?>"></p>
     <p>Operatie:
       <select name="operatie">
-        <option value="+">+</option>
-        <option value="-">-</option>
-        <option value="×">×</option>
-        <option value="/">/</option>
+        <option<?php if(!empty ($_GET["operatie"])){if ($_GET["operatie"] == "+") {echo " selected";}}?> value="+">+</option>
+        <option<?php if(!empty ($_GET["operatie"])){if ($_GET["operatie"] == "-") {echo " selected";}}?> value="-">-</option>
+        <option<?php if(!empty ($_GET["operatie"])){if ($_GET["operatie"] == "×") {echo " selected";}}?> value="×">×</option>
+        <option<?php if(!empty ($_GET["operatie"])){if ($_GET["operatie"] == "/") {echo " selected";}}?> value="/">/</option>
       </select>
     </p>
     <p>
@@ -29,10 +29,10 @@
  // }?>
 
 
- <?php
-$antwoord = $_GET["operatie"];
-echo "HALLO HIER STAAT HET HOPELIJK" . $antwoord;
- ?>
+// <?php
+//$antwoord = $_GET["operatie"];
+//echo "HALLO HIER STAAT HET HOPELIJK" . $antwoord;
+// ?>
 
   <p>Antwoord: <input type="text" value="<?php if(!empty($antwoord)) {echo $antwoord;} ?>"></p>
 </body>
