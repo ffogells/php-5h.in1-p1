@@ -11,7 +11,7 @@
             echo "<h1>Dat klopt!</h1>\n";}
         else {
             echo "<h1>Dat is fout!</h1>";
-            echo "<p>Het goede antwoord was Berlijn.</p>";} 
+            echo "<p>Het goede antwoord was Berlijn.</p>";}
     ?>
 </body>
 </html>
