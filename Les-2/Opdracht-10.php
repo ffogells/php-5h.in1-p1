@@ -5,7 +5,7 @@
   <title>Opdracht 10</title>
 </head>
 <body>
-  <form method="post" action="Formulier-afhandeling.php">
+  <form method="POST" action="Formulier-afhandeling.php">
     <p>Voornaam: <input type="text" size="20" name="voornaam"></p>
     <p>Achternaam: <input type="text" size="20" name="achternaam"></p>
     <p>Geslacht: 

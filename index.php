@@ -18,6 +18,7 @@
     <a href="Les-2/Opdracht-9/formulier.php">Opdracht 9</a><br>
     <a href="Les-2/Opdracht-10.php">Opdracht 10</a><br>
     <a href="Les-2/Opdracht-11/hoofdstad.php">Opdracht 11</a><br>
+    <a href="Les-2/Opdracht-12.php">Opdracht 12</a><br>
     <h2>Overig</h2>
     <a href="LICENSE.md">Licentie</a><br>    
 </body>
