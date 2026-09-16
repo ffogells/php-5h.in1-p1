@@ -22,6 +22,7 @@
     <h2>Les 3</h2>
     <a href="Les-3/Opdracht-13.php">Opdracht 13</a><br>
     <a href="Les-3/Opdracht-14.php">Opdracht 14</a><br>
+    <a href="Les-3/Opdracht-15.php">Opdracht 15</a><br>
     <h2>Overig</h2>
     <a href="LICENSE.md">Licentie</a><br>    
 </body>
