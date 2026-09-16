@@ -10,7 +10,7 @@
         <form method="POST" action="antwoord.php">
             <input type="radio" name="hoofdstad" value="brest">Brest<br>
             <input type="radio" name="hoofdstad" value="nantes">Nantes<br>
-            <input type="radio" name="hoofdstad" value="rennes">Rennes<br>
+            <input type="radio" name="hoofdstad" value="rennes">Rennes<br><br>
             <input type="submit" value="Verstuur">
         </form>
     </p>
