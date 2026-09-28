@@ -17,13 +17,9 @@
                 $aantal++;
             }
         }
-        else {
+        elseif (!empty($_GET["getal"])){
             echo "<p>Ongeldige invoer</p>";
         }
-
-
-
-
         ?>
     </form>
 </body>
