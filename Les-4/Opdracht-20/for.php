@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht 20 while</title>
+    <title>Opdracht 20 for</title>
 </head>
 <body>
     <?php
