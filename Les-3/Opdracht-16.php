@@ -20,7 +20,7 @@
             }
         }
         elseif (!empty($_GET["getal"])){
-            echo "<p>Ongeldige invoer</p>";
+            echo "<p>Ongeldige invoer. Voer een getal in van 1 t/m 99.</p>";
         }
         ?>
     </form>
