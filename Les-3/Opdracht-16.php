@@ -10,7 +10,9 @@
         <input type="submit" value="Maak een tafel">
         <?php
         $aantal = 1;
-        $getal = $_GET["getal"];
+        if (!empty ($_GET["getal"])) {
+            $getal = $_GET["getal"];
+        }
         if (!empty($getal) && $getal <= 99 && $getal >= 1) {
             while ($aantal <= 10){ 
                 echo "<p>".$aantal." × ".$getal." = ".$aantal * $getal."</p>";
