@@ -12,14 +12,19 @@
         if (!empty ($_GET["getal"])) {
             $getal = $_GET["getal"];
         }
-        if (!empty($getal)) {
-            $totaal = $getal * ($getal - 1);
-            $getal--;
-            while ($getal >= 2){ 
+        if (is_numeric($getal)) {
+            if (!empty($getal)) {
+                $totaal = $getal * ($getal - 1);
                 $getal--;
-                $totaal = $totaal * $getal;                
+                while ($getal >= 2){ 
+                    $getal--;
+                    $totaal = $totaal * $getal;                
+                }
+                echo "<p>Faculteit: ".$totaal."</p>";
             }
-            echo "<p>Faculteit: ".$totaal."</p>";
+        }
+        else {
+            echo "<p>Ongeldige invoer. Voer een getal in.</p>";
         }
         ?>
     </form>
