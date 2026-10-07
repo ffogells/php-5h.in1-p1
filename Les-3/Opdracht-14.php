@@ -6,10 +6,10 @@
 </head>
 <body>
     <?php 
-    $grootte = 1;
-    while($grootte <= 6) {
-        echo "<h".$grootte.">Ik word kleiner</h".$grootte.">";
-        $grootte++;
+        $grootte = 1;
+        while($grootte <= 6) {
+            echo "<h".$grootte.">Ik word kleiner</h".$grootte.">";
+            $grootte++;
     }?>
 </body>
 </html>

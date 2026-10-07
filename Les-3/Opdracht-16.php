@@ -9,19 +9,19 @@
         <p>Voer hier een getal in van 1 t/m 99: <input type="text" size="2" name="getal" value="<?php if (!empty($_GET["getal"])){echo $_GET["getal"];}?>"></p>
         <input type="submit" value="Maak een tafel">
         <?php
-        $aantal = 1;
-        if (!empty ($_GET["getal"])) {
-            $getal = $_GET["getal"];
-        }
-        if (!empty($getal) && $getal <= 99 && $getal >= 1) {
-            while ($aantal <= 10){ 
-                echo "<p>".$aantal." × ".$getal." = ".$aantal * $getal."</p>";
-                $aantal++;
+            $aantal = 1;
+            if (!empty ($_GET["getal"])) {
+                $getal = $_GET["getal"];
             }
-        }
-        elseif (!empty($_GET["getal"])){
-            echo "<p>Ongeldige invoer. Voer een getal in van 1 t/m 99.</p>";
-        }
+            if (!empty($getal) && $getal <= 99 && $getal >= 1) {
+                while ($aantal <= 10){ 
+                    echo "<p>".$aantal." × ".$getal." = ".$aantal * $getal."</p>";
+                    $aantal++;
+                }
+            }
+            elseif (!empty($_GET["getal"])){
+                echo "<p>Ongeldige invoer. Voer een getal in van 1 t/m 99.</p>";
+            }
         ?>
     </form>
 </body>

@@ -21,12 +21,13 @@
     </p>
   </form>
   <?php
-  if (!empty($_GET["getal1"]) && !empty ($_GET["getal2"]) && !empty ($_GET["operatie"])) {
-    if ($_GET["operatie"] == "+") {$antwoord = $_GET["getal1"] + $_GET["getal2"];}
-    elseif ($_GET["operatie"] == "×") {$antwoord = $_GET["getal1"] * $_GET["getal2"];}
-    elseif ($_GET["operatie"] == "-") {$antwoord = $_GET["getal1"] - $_GET["getal2"];}
-    elseif ($_GET["operatie"] == "/") {$antwoord = $_GET["getal1"] / $_GET["getal2"];}
-  }?>
+    if (!empty($_GET["getal1"]) && !empty ($_GET["getal2"]) && !empty ($_GET["operatie"])) {
+      if ($_GET["operatie"] == "+") {$antwoord = $_GET["getal1"] + $_GET["getal2"];}
+      elseif ($_GET["operatie"] == "×") {$antwoord = $_GET["getal1"] * $_GET["getal2"];}
+      elseif ($_GET["operatie"] == "-") {$antwoord = $_GET["getal1"] - $_GET["getal2"];}
+      elseif ($_GET["operatie"] == "/") {$antwoord = $_GET["getal1"] / $_GET["getal2"];}
+    }
+  ?>
   <p>Antwoord: <input type="text" value="<?php if(!empty($antwoord)) {echo $antwoord;} ?>"></p>
 </body>
 </html>

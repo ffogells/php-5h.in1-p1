@@ -9,23 +9,23 @@
         <p>Voer hier een getal in om de faculteit uit te rekenen: <input type="text" size="4" name="getal" value="<?php if (!empty($_GET["getal"])){echo $_GET["getal"];}?>"></p>
         <input type="submit" value="Bereken">
         <?php
-        if (!empty ($_GET["getal"])) {
-            $getal = $_GET["getal"];
-        }
-        if (is_numeric($getal)) {
-            if (!empty($getal)) {
-                $totaal = $getal * ($getal - 1);
-                $getal--;
-                while ($getal >= 2){ 
-                    $getal--;
-                    $totaal = $totaal * $getal;                
-                }
-                echo "<p>Faculteit: ".$totaal."</p>";
+            if (!empty ($_GET["getal"])) {
+                $getal = $_GET["getal"];
             }
-        }
-        else {
-            echo "<p>Ongeldige invoer. Voer een getal in.</p>";
-        }
+            if (is_numeric($getal)) {
+                if (!empty($getal)) {
+                    $totaal = $getal * ($getal - 1);
+                    $getal--;
+                    while ($getal >= 2){ 
+                        $getal--;
+                        $totaal = $totaal * $getal;                
+                    }
+                    echo "<p>Faculteit: ".$totaal."</p>";
+                }
+            }
+            else {
+                echo "<p>Ongeldige invoer. Voer een getal in.</p>";
+            }
         ?>
     </form>
 </body>
