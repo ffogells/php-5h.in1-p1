@@ -6,12 +6,12 @@
 </head>
 <body>
     <?php
-    $array = array("maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag");
-    $aantal = 0;
-    while ($aantal <= 6) {
-        echo "<p>".$array[$aantal]."</p>\n";
-        $aantal++;
-    }
+        $array = array("maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag","zondag");
+        $aantal = 0;
+        while ($aantal <= 6) {
+            echo "<p>".$array[$aantal]."</p>\n";
+            $aantal++;
+        }
     ?>
 </body>
 </html>

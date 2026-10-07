@@ -5,8 +5,8 @@
 </head>
 <body>
     <?php 
-    $tijd = date("H:i:s");
-    echo "<h1>Het is nu ".$tijd."</h1>";
+        $tijd = date("H:i:s");
+        echo "<h1>Het is nu ".$tijd."</h1>";
     ?>
 </body>
 </html> 

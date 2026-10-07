@@ -9,12 +9,12 @@
         <p>Geboortejaar:</p>
         <select>
             <?php 
-            $jaar = date("Y");
-            while($jaar >= 2000) {
-                echo "<option>".$jaar."</option>\n";
-                $jaar--;
-            }?>
-            <?php
+                $jaar = date("Y");
+                while($jaar >= 2000) {
+                    echo "<option>".$jaar."</option>\n";
+                    $jaar--;
+                }?>
+                <?php
             ?>
         </select>
     </form>
