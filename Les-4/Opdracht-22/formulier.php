@@ -5,21 +5,23 @@
     <title>Opdracht 22</title>
 </head>
 <body>
-    <form method="post" action="verwerking.php">
-        <input type="checkbox" name="vak[wia]" value="Wiskunde A"><br>
-        <input type="checkbox" name="vak[wib]" value="Wiskunde B"><br>
-        <input type="checkbox" name="vak[wic]" value="Wiskunde C"><br>
-        <input type="checkbox" name="vak[ak]" value="Aardrijkskunde"><br>
-        <input type="checkbox" name="vak[na]" value="Natuurkunde"><br>
-        <input type="checkbox" name="vak[in]" value="Informatica"><br>
-        <input type="checkbox" name="vak[sk]" value="Scheikunde"><br>
-        <input type="checkbox" name="vak[bi]" value="Biologie"><br>
-        <input type="checkbox" name="vak[en]" value="Engels"><br>
-        <input type="checkbox" name="vak[nl]" value="Nederlands"><br>
-        <input type="checkbox" name="vak[fr]" value="Frans"><br>
-        <input type="checkbox" name="vak[sp]" value="Spaans"><br>
-        <input type="checkbox" name="vak[du]" value="Duits"><br>
-        <input type="submit" name="inleveren" value="Kies je vakken"> 
-    </form>
+    <p>
+        <form method="post" action="verwerking.php">
+            <input type="checkbox" name="vak[]" value="Wiskunde A">Wiskunde A<br>
+            <input type="checkbox" name="vak[]" value="Wiskunde B">Wiskunde B<br>
+            <input type="checkbox" name="vak[]" value="Wiskunde C">Wiskunde C<br>
+            <input type="checkbox" name="vak[]" value="Aardrijkskunde">Aardrijkskunde<br>
+            <input type="checkbox" name="vak[]" value="Natuurkunde">Natuurkunde<br>
+            <input type="checkbox" name="vak[]" value="Informatica">Informatica<br>
+            <input type="checkbox" name="vak[]" value="Scheikunde">Scheikunde<br>
+            <input type="checkbox" name="vak[]" value="Biologie">Biologie<br>
+            <input type="checkbox" name="vak[]" value="Engels">Engels<br>
+            <input type="checkbox" name="vak[]" value="Nederlands">Nederlands<br>
+            <input type="checkbox" name="vak[]" value="Frans">Frans<br>
+            <input type="checkbox" name="vak[]" value="Spaans">Spaans<br>
+            <input type="checkbox" name="vak[]" value="Duits">Duits<br>
+            <input type="submit" name="inleveren" value="Kies je vakken">
+        </form>
+    </p>
 </body>
 </html>
