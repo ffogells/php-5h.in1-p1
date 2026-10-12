@@ -28,9 +28,9 @@
         elseif ($_GET["operatie"] == "-") {$antwoord = $_GET["getal1"] - $_GET["getal2"];}
         elseif ($_GET["operatie"] == "/") {$antwoord = $_GET["getal1"] / $_GET["getal2"];}
       }
-    else {
-      echo "<p>Invoer moet een nummer zijn.</p>";
-    }
+      else {
+        echo "<p>Invoer moet een getal zijn.</p>";
+      }
     }
   ?>
   <p>Antwoord: <input type="text" value="<?php if(!empty($antwoord)) {echo $antwoord;} ?>"></p>
