@@ -16,25 +16,25 @@
         if (!empty($_POST)) {
             $bmi = bmi($_POST["gewicht"],$_POST["lengte"]);
             if ($bmi < 16) {
-                echo "Je BMI is ".$bmi.". Dat valt onder de categorie zwaar ondergewicht.";
+                echo "<a>Je BMI is ".$bmi.". Dat valt onder de categorie zwaar ondergewicht.</a>";
             }
             elseif ($bmi < 18.5) {
-                echo "Je BMI is ".$bmi.". Dat valt onder de categorie ondergewicht.";
+                echo "<a>Je BMI is ".$bmi.". Dat valt onder de categorie ondergewicht.</a>";
             }
             elseif ($bmi < 25) {
-                echo "Je BMI is ".$bmi.". Dat valt onder de categorie normaal.";
+                echo "<a>Je BMI is ".$bmi.". Dat valt onder de categorie normaal.</a>";
             }
             elseif ($bmi < 30) {
-                echo "Je BMI is ".$bmi.". Dat valt onder de categorie overgewicht.";
+                echo "<a>Je BMI is ".$bmi.". Dat valt onder de categorie overgewicht.</a>";
             }
             elseif ($bmi < 35) {
-                echo "Je BMI is ".$bmi.". Dat valt onder de categorie obesitas niveau 1.";
+                echo "<a>Je BMI is ".$bmi.". Dat valt onder de categorie obesitas niveau 1.</a>";
             }
             elseif ($bmi < 40) {
-                echo "Je BMI is ".$bmi.". Dat valt onder de categorie obesitas niveau 2.";
+                echo "<a>Je BMI is ".$bmi.". Dat valt onder de categorie obesitas niveau 2.</a>";
             }
             elseif ($bmi >= 40) {
-                echo "Je BMI is ".$bmi.". Dat valt onder de categorie obesitas niveau 3.";
+                echo "<a>Je BMI is ".$bmi.". Dat valt onder de categorie obesitas niveau 3.</a>";
             }
         }
     ?>
