@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Opdracht 30</title>
-    <?php include("../functions.php") ?>
+    <?php include("../functions.php"); ?>
 </head>
 <body>
     <h1>BMI berekenen</h1>
