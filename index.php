@@ -40,6 +40,7 @@
     <h2>Les 6</h2>
     <a href="Les-6/Opdracht-29.php">Opdracht 29</a><br>
     <a href="Les-6/Opdracht-30.php">Opdracht 30</a><br>
+    <a href="Les-6/Opdracht-31.php">Opdracht 31</a><br>
     <h2>Overig</h2>
     <a href="LICENSE.md">Licentie</a><br>    
     <a href="https://github.com/ffogells/php-5h.in1-p1">Broncode</a><br>
