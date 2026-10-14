@@ -6,41 +6,44 @@
 </head>
 <body>
     <h1>Welkom</h1>
-    <h2>Les 1</h2>
-    <a href="Les-1/Opdracht-1.php">Opdracht 1</a><br>
-    <a href="Les-1/Opdracht-2.php">Opdracht 2</a><br>
-    <a href="Les-1/Opdracht-3.php">Opdracht 3</a><br>
-    <a href="Les-1/Opdracht-4.php">Opdracht 4</a><br>
-    <a href="Les-1/Opdracht-5.php">Opdracht 5</a><br>
-    <a href="Les-1/Opdracht-6.php">Opdracht 6</a><br>
-    <h2>Les 2</h2>
-    <a href="Les-2/Opdracht-8/formulier.php">Opdracht 8</a><br>
-    <a href="Les-2/Opdracht-9/formulier.php">Opdracht 9</a><br>
-    <a href="Les-2/Opdracht-10.php">Opdracht 10</a><br>
-    <a href="Les-2/Opdracht-11/hoofdstad.php">Opdracht 11</a><br>
-    <a href="Les-2/Opdracht-12.php">Opdracht 12</a><br>
-    <h2>Les 3</h2>
-    <a href="Les-3/Opdracht-13.php">Opdracht 13</a><br>
-    <a href="Les-3/Opdracht-14.php">Opdracht 14</a><br>
-    <a href="Les-3/Opdracht-15.php">Opdracht 15</a><br>
-    <a href="Les-3/Opdracht-16.php">Opdracht 16</a><br>
-    <a href="Les-3/Opdracht-17.php">Opdracht 17</a><br>
-    <h2>Les 4</h2>
-    <a href="Les-4/Opdracht-20/while.php">Opdracht 20 while</a><br>
-    <a href="Les-4/Opdracht-20/for.php">Opdracht 20 for</a><br>
-    <a href="Les-4/Opdracht-21.php">Opdracht 21</a><br>
-    <a href="Les-4/Opdracht-22/formulier.php">Opdracht 22</a><br>
-    <a href="Les-4/Opdracht-23.php">Opdracht 23</a><br>
-    <a href="Les-4/Opdracht-24.php">Opdracht 24</a><br>
-    <a href="Les-4/Opdracht-25.php">Opdracht 25</a><br>
-    <h2>Les 5</h2>
-    <a href="Les-5/Opdracht-26.php">Opdracht 26</a><br>
-    <a href="Les-5/Opdracht-27.php">Opdracht 27</a><br>
-    <a href="Les-5/Opdracht-28/lijn.php">Opdracht 28</a><br>
-    <h2>Les 6</h2>
-    <a href="Les-6/Opdracht-29.php">Opdracht 29</a><br>
-    <a href="Les-6/Opdracht-30.php">Opdracht 30</a><br>
-    <a href="Les-6/Opdracht-31.php">Opdracht 31</a><br>
+    <h2>PHP</h2>
+    <h3>Les 1</h3>
+    <a href="php/Les-1/Opdracht-1.php">Opdracht 1</a><br>
+    <a href="php/Les-1/Opdracht-2.php">Opdracht 2</a><br>
+    <a href="php/Les-1/Opdracht-3.php">Opdracht 3</a><br>
+    <a href="php/Les-1/Opdracht-4.php">Opdracht 4</a><br>
+    <a href="php/Les-1/Opdracht-5.php">Opdracht 5</a><br>
+    <a href="php/Les-1/Opdracht-6.php">Opdracht 6</a><br>
+    <h3>Les 2</h3>
+    <a href="php/Les-2/Opdracht-8/formulier.php">Opdracht 8</a><br>
+    <a href="php/Les-2/Opdracht-9/formulier.php">Opdracht 9</a><br>
+    <a href="php/Les-2/Opdracht-10.php">Opdracht 10</a><br>
+    <a href="php/Les-2/Opdracht-11/hoofdstad.php">Opdracht 11</a><br>
+    <a href="php/Les-2/Opdracht-12.php">Opdracht 12</a><br>
+    <h3>Les 3</h3>
+    <a href="php/Les-3/Opdracht-13.php">Opdracht 13</a><br>
+    <a href="php/Les-3/Opdracht-14.php">Opdracht 14</a><br>
+    <a href="php/Les-3/Opdracht-15.php">Opdracht 15</a><br>
+    <a href="php/Les-3/Opdracht-16.php">Opdracht 16</a><br>
+    <a href="php/Les-3/Opdracht-17.php">Opdracht 17</a><br>
+    <h3>Les 4</h3>
+    <a href="php/Les-4/Opdracht-20/while.php">Opdracht 20 while</a><br>
+    <a href="php/Les-4/Opdracht-20/for.php">Opdracht 20 for</a><br>
+    <a href="php/Les-4/Opdracht-21.php">Opdracht 21</a><br>
+    <a href="php/Les-4/Opdracht-22/formulier.php">Opdracht 22</a><br>
+    <a href="php/Les-4/Opdracht-23.php">Opdracht 23</a><br>
+    <a href="php/Les-4/Opdracht-24.php">Opdracht 24</a><br>
+    <a href="php/Les-4/Opdracht-25.php">Opdracht 25</a><br>
+    <h3>Les 5</h3>
+    <a href="php/Les-5/Opdracht-26.php">Opdracht 26</a><br>
+    <a href="php/Les-5/Opdracht-27.php">Opdracht 27</a><br>
+    <a href="php/Les-5/Opdracht-28/lijn.php">Opdracht 28</a><br>
+    <h3>Les 6</h3>
+    <a href="php/Les-6/Opdracht-29.php">Opdracht 29</a><br>
+    <a href="php/Les-6/Opdracht-30.php">Opdracht 30</a><br>
+    <a href="php/Les-6/Opdracht-31.php">Opdracht 31</a><br>
+    <h2>MySQLi</h2>
+    <h3>Les 1</h3>
     <h2>Overig</h2>
     <a href="LICENSE.md">Licentie</a><br>    
     <a href="https://github.com/ffogells/php-5h.in1-p1">Broncode</a><br>
