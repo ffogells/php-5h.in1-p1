@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Opdracht 5</title>
-    <?php include("../databaseConnectie.php"); ?>
+    <?php include("../credentials.php"); include("../databaseConnectie.php"); ?>
     <?php
         $query = "SELECT * FROM leerlingen";
 
