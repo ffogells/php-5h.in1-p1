@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Opdracht 3</title>
-    <?php include("../databaseConnectie.php"); ?>
+    <?php include("../credentials.php"); include("../databaseConnectie.php"); ?>
 </head>
 <body>
     <?php echo $boodschap; ?>
