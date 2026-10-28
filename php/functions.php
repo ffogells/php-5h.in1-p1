@@ -16,4 +16,15 @@
         $gemiddelde = $totaal / $count;
         return $gemiddelde;
     }
+    function geslacht($waarde) {
+        if $waarde == 0 {
+            return "mannelijk";
+        }
+        elseif $waarde == 1 {
+            return "vrouwelijk";
+        }
+        else {
+            //error
+        }
+    }
 ?> 
