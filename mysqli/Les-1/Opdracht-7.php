@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht 6 waarden uitlezen</title>
+    <title>Opdracht 7</title>
     <?php include("../../credentials.php"); include("../../databaseConnectie.php"); include("../../../php/functions.php") ?>
     <?php
         $query = "SELECT * FROM leerlingen";
@@ -18,7 +18,7 @@
     <?php 
         echo $boodschap."<br>\n"; 
         while ($rij = mysqli_fetch_array($resultaat) ) {
-            echo $rij["id"]." ".$rij["voornaam"]." ".$rij["achternaam"]." ".$rij["geslacht"]." ".$rij["profiel"]." ".$rij["geboortedatum"]."<br>\n";
+            echo $rij["id"]." ".$rij["voornaam"]." ".geslacht($rij["achternaam"])." ".$rij["geslacht"]." ".$rij["profiel"]." ".$rij["geboortedatum"]."<br>\n";
         }
         mysqli_close($connectie);
     ?>
