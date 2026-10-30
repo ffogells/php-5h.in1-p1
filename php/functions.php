@@ -24,7 +24,7 @@
             return "vrouwelijk";
         }
         else {
-            exit("Geen geldige invoer");
+            exit("Geen geldige invoer. Invoer: ".$waarde);
         }
     }
 ?> 
