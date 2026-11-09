@@ -15,12 +15,14 @@
     ?>
 </head>
 <body>
+    <table>
     <?php 
         echo $boodschap."<br>\n"; 
         while ($rij = mysqli_fetch_array($resultaat) ) {
-            echo $rij["id"]." ".$rij["voornaam"]." ".$rij["achternaam"]." ".geslacht($rij["geslacht"])." ".$rij["profiel"]." ".$rij["geboortedatum"]."<br>\n";
+            echo "<tr><td>"$rij["id"]."</td><td>".$rij["voornaam"]."</td><td>".$rij["achternaam"]."</td><td>".geslacht($rij["geslacht"])."</td><td>".$rij["profiel"]."</td><td>".$rij["geboortedatum"]."</td></tr><br>\n";
         }
         mysqli_close($connectie);
     ?>
+    </table>
 </body>
 </html>
