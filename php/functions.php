@@ -17,10 +17,10 @@
         return $gemiddelde;
     }
     function geslacht($waarde) {
-        if ($waarde == 0) {
+        if ($waarde == 1) {
             return "mannelijk";
         }
-        elseif ($waarde == 1) {
+        elseif ($waarde == 0) {
             return "vrouwelijk";
         }
         else {

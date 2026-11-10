@@ -13,13 +13,19 @@
             $boodschap .= " Query is gelukt! ";
         }
     ?>
+    
 </head>
 <body>
+    <style>
+    table, th, td {
+        border: 1px solid black;
+    }
+    </style>
     <table>
     <?php 
         echo $boodschap."<br>\n"; 
         while ($rij = mysqli_fetch_array($resultaat) ) {
-            echo "<tr><td>"$rij["id"]."</td><td>".$rij["voornaam"]."</td><td>".$rij["achternaam"]."</td><td>".geslacht($rij["geslacht"])."</td><td>".$rij["profiel"]."</td><td>".$rij["geboortedatum"]."</td></tr><br>\n";
+            echo "<tr><td>".$rij["id"]."</td><td>".$rij["voornaam"]."</td><td>".$rij["achternaam"]."</td><td>".geslacht($rij["geslacht"])."</td><td>".$rij["profiel"]."</td><td>".$rij["geboortedatum"]."</td></tr><br>\n";
         }
         mysqli_close($connectie);
     ?>
