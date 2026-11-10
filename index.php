@@ -51,6 +51,7 @@
     <a href="mysqli/Les-1/Opdracht-6/waardenuitlezen.php">Opdracht 6 waarden uitlezen</a><br>
     <a href="mysqli/Les-1/Opdracht-7.php">Opdracht 7</a><br>
     <a href="mysqli/Les-1/Opdracht-8.php">Opdracht 8</a><br>
+    <a href="mysqli/Les-1/Opdracht-9.php">Opdracht 9</a><br>
     <h2>Overig</h2>
     <a href="LICENSE.md">Licentie</a><br>    
     <a href="https://github.com/ffogells/php-5h.in1-p1">Broncode</a><br>
