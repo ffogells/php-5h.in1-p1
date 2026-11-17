@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht 8</title>
+    <title>Overzicht leerlingen</title>
     <?php include("credentials.php"); include("databaseConnectie.php"); include("../php/functions.php") ?>
     <?php
         $query = "SELECT * FROM leerlingen";

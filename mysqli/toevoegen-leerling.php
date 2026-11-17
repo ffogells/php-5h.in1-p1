@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht 9</title>
+    <title>Voeg een leerling toe</title>
 </head>
 <body>
     <form method="post" action="Opdracht-10.php">
