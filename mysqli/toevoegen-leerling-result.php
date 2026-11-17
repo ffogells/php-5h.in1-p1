@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Opdracht 10</title>
+    <title>Leerling toegevoegd</title>
     <?php include("credentials.php"); include("databaseConnectie.php"); include("../php/functions.php") ?>
     <?php
         //echo $boodschap;
