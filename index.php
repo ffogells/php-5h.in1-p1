@@ -43,18 +43,21 @@
     <a href="php/Les-6/Opdracht-30.php">Opdracht 30</a><br>
     <a href="php/Les-6/Opdracht-31.php">Opdracht 31</a><br>
     <h2>MySQLi</h2>
-    <h3>Les 1</h3>
-    <a href="mysqli/Les-1/Opdracht-3.php">Opdracht 3</a><br>
-    <a href="mysqli/Les-1/Opdracht-4.php">Opdracht 4</a><br>
-    <a href="mysqli/Les-1/Opdracht-5.php">Opdracht 5</a><br>
-    <a href="mysqli/Les-1/Opdracht-6/queryfout.php">Opdracht 6 queryfout</a><br>
-    <a href="mysqli/Les-1/Opdracht-6/waardenuitlezen.php">Opdracht 6 waarden uitlezen</a><br>
-    <a href="mysqli/Les-1/Opdracht-7.php">Opdracht 7</a><br>
-    <a href="mysqli/Les-1/Opdracht-8.php">Opdracht 8</a><br>
-    <h3>Les 2</h3>
-    <a href="mysqli/Les-2/Opdracht-9.php">Opdracht 9 en 10</a><br>
+    <h3>Pagina's</h3>
+    <a href="mysqli/lezen-leerlingen.php">Lezen leerlingen</a><br>
+    <a href="mysqli/toevoegen-leerling.php">Toevoegen leerling</a><br>
+    <h3>Oud</h3>
+    <a href="mysqli/oud/Les-1/Opdracht-3.php">Opdracht 3</a><br>
+    <a href="mysqli/oud/Les-1/Opdracht-4.php">Opdracht 4</a><br>
+    <a href="mysqli/oud/Les-1/Opdracht-5.php">Opdracht 5</a><br>
+    <a href="mysqli/oud/Les-1/Opdracht-6/queryfout.php">Opdracht 6 queryfout</a><br>
+    <a href="mysqli/oud/Les-1/Opdracht-6/waardenuitlezen.php">Opdracht 6 waarden uitlezen</a><br>
+    <a href="mysqli/oud/Les-1/Opdracht-7.php">Opdracht 7</a><br>
+    <a href="mysqli/oud/Les-1/Opdracht-8.php">Opdracht 8</a><br>
+    <a href="mysqli/oud/Les-2/Opdracht-9.php">Opdracht 9 en 10</a><br>
     <h2>Overig</h2>
     <a href="LICENSE.md">Licentie</a><br>    
     <a href="https://github.com/ffogells/php-5h.in1-p1">Broncode</a><br>
 </body>
 </html>
+
