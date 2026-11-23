@@ -18,7 +18,6 @@
     <?php
         while ($rij = mysqli_fetch_assoc($resultaat)) {
             echo $rij["voornaam"]." ".$rij["achternaam"]." => <a href=\"bewerkformulier.php?id=".$rij["id"]."\">bewerk</a><br>\n"; 
-            // TEST DIT ^
         }
         mysqli_close($connectie);
     ?>
