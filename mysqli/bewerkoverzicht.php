@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Bewerkoverzicht leerlingen</title>
-    <?php include("databaseConnectie.php"); include("credentials.php"); include("functions.php"); ?>
+    <?php include("credentials.php"); include("databaseConnectie.php"); include("../php/functions.php"); ?>
     <?php
         $query = "SELECT * FROM leerlingen";
 
@@ -16,7 +16,7 @@
 </head>
 <body>
     <?php
-        while ($rij - mysqli_fetch_assoc($resultaat)) {
+        while ($rij = mysqli_fetch_assoc($resultaat)) {
             echo $rij["voornaam"]." ".$rij["achternaam"]." => <a href=\"bewerkformulier.php?id=".$rij["id"]."\">bewerk</a><br>\n"; 
             // TEST DIT ^
         }

@@ -46,6 +46,7 @@
     <h3>Pagina's</h3>
     <a href="mysqli/lezen-leerlingen.php">Lezen leerlingen</a><br>
     <a href="mysqli/toevoegen-leerling.php">Toevoegen leerling</a><br>
+    <a href="mysqli/bewerkoverzicht.php">Bewerk leerling</a><br>
     <h3>Oud</h3>
     <a href="mysqli/oud/Les-1/Opdracht-3.php">Opdracht 3</a><br>
     <a href="mysqli/oud/Les-1/Opdracht-4.php">Opdracht 4</a><br>
